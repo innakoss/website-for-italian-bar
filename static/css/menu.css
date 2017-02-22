@@ -1,0 +1,38 @@
+/*************
+* new dishes *
+**************/
+
+.dishes-item-container {
+	max-width: 250px;
+	margin: auto;
+}
+
+.new-dishes .img-frame {
+	padding: 2px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 400px;
+}
+
+.new-dishes .dish-details {
+    padding: 15px 10px;
+    text-align: center;
+}
+
+/*******
+* menu *
+*******/
+
+.menu-heading h3 {
+	font-size: xx-large;
+	font-weight: 600;
+	font-family: 'Tangerine', serif;
+}
+
+.menu .thumbnail {
+	padding: 4px;
+	box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.menu .thumbnail img {
+	margin-bottom: 0px;
+}

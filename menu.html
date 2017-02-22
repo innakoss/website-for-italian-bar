@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bambina bar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/general.css">
+	<link rel="stylesheet" type="text/css" href="static/css/menu.css">
+	<link rel="stylesheet" type="text/css" href="static/css/animation.css">
+	<link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/slideanim.js"></script>
+</head>
+<body id="top">
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container container-navbar">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+<!-- 				<a class="navbar-brand" href="#myPage">Logo</a> -->
+				<div class="lang-switcher">
+					<img alt="JP" src="pictures/lang/Japan-icon.png" height="32px" weight="32px" class="lang-switcher__item">
+					<img alt="JP" src="pictures/lang/United-States-icon.png" height="32px" weight="32px" class="lang-switcher__item">
+					<img alt="JP" src="pictures/lang/Italy-icon.png" height="32px" weight="32px" class="lang-switcher__item">
+				</div>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="home.html">HOME</a></li>
+					<li class="active"><a href="menu.html">MENU</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron jumbotron--pinkfloid text-center">
+		<div class="jumbotron__inner row">
+			<div class="col-md-4">
+				<img class="jumbotron__logo img-responsive" src="logo.svg">	
+			</div>
+			<div class="col-md-8">
+				<h1 class="jumbotron__header">Welcome to Bambina!</h1>
+				<h3>We specialize in Italian cuisine</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="new-dishes container">
+		<div class="default-heading text-center">
+			<h2 class="heading menu__heading">New Dishes</h2>
+			<div class="border"></div>
+		</div>
+		<div class="row slideanim">
+			<div class="col-md-3 col-sm-6">
+				<div class="dishes-item-container">
+					<div class="img-frame">
+						<img src="pictures/new-dish/new-dish-2.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="244" height="244">
+					</div>
+				</div>
+				<div class="dish-details">
+					<p>パプリカの肉詰めトマトソース煮込み</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="dishes-item-container">
+					<div class="img-frame">
+						<img src="pictures/new-dish/new-dish-1.JPG" class="img-circle img-responsive" alt="Cinque Terre" width="244" height="244">
+					</div>
+				</div>
+				<div class="dish-details">
+					<p>カプレーゼ</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="dishes-item-container">
+					<div class="img-frame">
+						<img src="pictures/new-dish/new-dish-3.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="244" height="244">
+					</div>
+				</div>
+				<div class="dish-details">
+					<p>イチジクの赤ワイン煮（コンポート）</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="dishes-item-container">
+					<div class="img-frame">
+						<img src="pictures/new-dish/new-dish-4.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="244" height="244">
+					</div>
+				</div>
+				<div class="dish-details">
+					<p>ほうれん草ベーコン生クリームのスパゲティ</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu container">
+		<div class="default-heading text-center">
+			<h2 class="heading menu__heading">Menu</h2>
+			<div class="border"></div>
+		</div>
+			<div id="salads" class="row slideanim">
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="pictures/salads/menu-salads.jpg"alt="salads">
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-8 text-center">
+					<div class="menu-heading text-center">
+						<h3>Salads</h3>
+						<hr>
+					</div>
+					<p>季節のサラダ (￥800)</p>
+					<p>シーザーサラダ (￥800)</p>
+				</div>
+			</div>
+			<div id="appetizers" class="row slideanim">
+				<div class="col-sm-6 col-md-8 text-center">
+					<div class="menu-heading text-center">
+						<h3>Appetizers</h3>
+						<hr>
+					</div>
+					<p>チーズとサラミ盛り合わせ (￥1,200)</p>
+					<p>生ハームと季節の果物 (￥1,200)</p>
+					<p>カプレーゼ (￥700)</p>
+					<p>本日のアペタイザー　(￥1,000)</p>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="pictures/appetizers/menu.jpg" alt="appetizers">
+					</div>
+				</div>
+			</div>
+			<div id="pasta" class="row slideanim">
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img src="pictures/main/menu-main.jpg" alt="pasta">
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-8 text-center">
+					<div class="menu-heading text-center">
+						<h3>Pasta</h3>
+						<hr>
+					</div>
+					<p>ベーコントマトソーススパゲティ (￥1,200)</p>
+					<p>アーリォオーリォペペロンチーノスパゲティ (￥1,200)</p>
+					<p>カルボナーラ (￥1,200)</p>
+					<p>ボンゴレビアンコスパゲティ (アサリスパゲティ)　(￥1,200)</p>
+					<p>本日のパスタ (￥1,200)</p>
+				</div>
+			</div>
+			<div id="main" class="row slideanim">
+				<div class="col-sm-6 col-md-8 text-center">
+					<div class="menu-heading text-center">
+						<h3>Main course</h3>
+						<hr>
+					</div>
+					<p>豚ロース野菜ソテー (￥1,500)</p>
+					<p>ミラノ風カツレツ　(Cotoletta milanese) (￥1,500)</p>
+					<p>チキンソテーローズマリー風 (￥1,500)</p>
+					<p>自家製ソーセージ(￥1,500)</p>
+					<p>ハンバーグデミグラスソース</p>
+					<p>豚ロースバルサミコ</p>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class="img-responsive" src="pictures/main/menu-rizotto.jpg" alt="pasta">
+					</div>
+				</div>
+			</div>
+			<div id="deserts" class="row slideanim">
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class="img-responsive" src="pictures/sweets/menu-sweets.jpg" alt="sweets">
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-8 text-center">
+					<div class="menu-heading text-center">
+						<h3>Desserts</h3>
+						<hr>
+					</div>
+					<p>ティラミス (￥650)</p>
+					<p>クレープ (￥650)</p>
+					<p>季節の果物</p>
+				</div>
+			</div>
+			<div class="row slideanim">
+				<div class="col-sm-6 col-md-8 text-center">
+					<div class="menu-heading text-center">
+						<h3>Drinks</h3>
+						<hr>
+					</div>
+					<p>ビール</p>
+					<p>白ワイン</p>
+					<p>赤ワイン</p>
+					<p>ウイスキー</p>
+					<p>ラム酒</p>
+					<p>コニャック</p>
+					<p>カクテル</p>
+					<p>ソフトドリンク</p>
+				</div>
+				<div id="drinks" class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class="img-responsive" src="pictures/drinks/menu-drinks.jpg" alt="drinks">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	</div>
+
+	<hr>
+
+	<div class="contact-us container-fluid">
+		<div class="contacts row slideanim">
+			<div class="contact col-sm-6">
+				<h3 class="heading contact__heading">Address</h3>
+				<hr>
+				<p><span class="glyphicon glyphicon-map-marker"></span> 住所<br>
+				バンビーナバー<br>
+				東京都墨田区江東橋2-6-14<br>
+				エスカイヤビル<br>
+				錦糸町プラザ5Ｆ<br></p>
+				<p>ＪＲ総武線 錦糸町駅 南口 徒歩3分<br>
+				地下鉄半蔵門線 錦糸町駅 徒歩3分</p>
+				<p><span class="glyphicon glyphicon-phone"></span> 03-5625-3339</p>
+				<p><span class="glyphicon glyphicon-envelope"></span> taniast2008@yahoo.com</p>
+			</div>
+			<div class="contact col-sm-6">
+				<h3 class="heading contact__heading">Opening hours</h3>
+				<hr>
+				<p>月曜日〜土曜日<br>
+				19時〜24時<br>
+				定休日　日曜日
+				</p>
+			</div>
+			<div class="contact col-sm-6">
+				<h3 class="heading contact__heading">Our slogan</h3>
+				<hr>
+				<p>日本の文化、ヨーロッパの文化を一緒に楽しみましょう。</p>
+			</div>
+			<div class="contact col-sm-6">
+				<h3 class="heading contact__heading">Book a table</h3><hr>
+				<p><span class="glyphicon glyphicon-phone"></span> 08044130329</p>
+			</div>
+		</div>
+	</div>
+
+	<footer class="container-fluid text-center bg-silver">
+		<a href="#top" title="To Top">
+	    	<span class="glyphicon glyphicon-chevron-up"></span>
+	  	</a>
+	  	<p>Made by Inna Kostiuk</p>
+	</footer>
+
+</body>V

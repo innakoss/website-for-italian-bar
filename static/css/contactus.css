@@ -1,0 +1,30 @@
+/*************
+* contacts *
+**************/ 
+
+.jumbotron__header {
+	color: black;
+   -webkit-text-fill-color: #4eb433; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #805728;
+}
+.contact--special {
+	border-right: none;
+	border-top: 5px solid #808080;
+	padding: 30px;
+	margin: 10px;
+	background-color: #e5e7e1;
+}
+.border-bottom {
+	border-bottom: 2px solid grey;
+}
+.map {
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 400px) {
+	.map {
+		height: calc(100% - 104px);
+	}
+}
